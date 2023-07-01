@@ -17,7 +17,7 @@ const creatPoke = async ()  => {
             pokeCard.innerHTML= `
             <div class= "headerCard">
                 <p>${dataPokemon.name}</p>
-                <i>
+                <i class = "a-sharp fa-regular fa-heart"></i>
             </div>
             
             <img class="imgPoke" src="${dataPokemon.sprites.other["home"].front_default}">
